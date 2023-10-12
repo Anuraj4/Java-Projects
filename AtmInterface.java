@@ -77,7 +77,7 @@ class ATM {
     }
 }
 
-public class codesoftTask3 {
+public class AtmInterface {
     public static void main(String[] args) {
         BankAccount userAccount = new BankAccount(1000.0); // Initial balance
         ATM atm = new ATM(userAccount);
